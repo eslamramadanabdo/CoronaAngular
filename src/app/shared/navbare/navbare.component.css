@@ -1,0 +1,68 @@
+/* =====================header================= */
+.content{
+  background-image: url('../../../assets/img/navbackground.png');
+  background-color: #F7F9FE;
+  width: 100%;
+  background-size: cover;
+  /* height: 100vh; */
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+.header{
+  width: 100%;
+  /* position: fixed; */
+  /* top: 0%; */
+  transition: all 1s;
+}
+.header-fixed{
+  width: 100%;
+  position: fixed;
+  background-color: white;
+  top: 0%;
+  z-index: 100000;
+}
+
+/* ======================top nav===================== */
+.header-nav {
+  width: 80%;
+  margin: auto;
+}
+
+
+.navbar-nav {
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.nav-item{
+  margin: 0% .5%;
+}
+
+.navbar-light .navbar-brand {
+  color: #50658e !important;
+}
+.navbar-light .navbar-brand h1 {
+  text-transform: uppercase;
+  color: #394B6C;
+  font-weight: 900;
+  font-size: 28px;
+  /* letter-spacing: 6.5px; */
+}
+
+.navbar-light .navbar-brand h1 svg{
+  color: #FF5363;
+  width: 30px;
+  height: 30px;
+  vertical-align: -.125em
+}
+.navbar-light .navbar-brand h1 span{
+  color: #4B6691;
+}
+
+.nav-link{
+  color: #50658e !important;
+  text-transform: capitalize !important;
+  font-weight: bold !important;
+  font-size: 16px;
+}
